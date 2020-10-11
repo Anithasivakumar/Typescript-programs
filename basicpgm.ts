@@ -1,0 +1,21 @@
+var nam1 : string = "Anitha";
+var nam2 : string = "Sivakumar";
+var fname :string = nam1.concat(nam2);
+var m1:number = 4;
+var m2 :number = 27;
+var mul: number = m1 * m2;
+var isFail: boolean = false;
+var r = 897.896467;
+var m = r.toExponential();
+var s: number = 345.987435;
+var str = "Tamilnadu College of Engineering";
+console.log("NAME :" + fname);
+console.log("Multiplied value:" + mul);
+console.log("Boolean:" + isFail);
+console.log("The type of data:" + typeof (r));
+console.log("Fixed value is:" + s.toFixed(2))
+console.log("Exponential value:" + m);
+console.log("Length of string:" + str.length);
+console.log("Character at given place:" + str.charAt(1));
+console.log("Index of the word:" + str.indexOf("Co"));
+console.log("Last index is:" + str.lastIndexOf("College"));
